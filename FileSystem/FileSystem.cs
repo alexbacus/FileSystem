@@ -6,7 +6,7 @@ namespace Homework
 {
     public class FileSystem
     {
-        Directory Root;
+        private Directory Root;
         List<User> Users = new List<User>();
 
         public FileSystem()
